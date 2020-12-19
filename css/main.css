@@ -204,6 +204,6 @@ body main.clock-display {
 }
 
 #myContainer{
-    zoom: 0.5;
-    -moz-transform: scale(0.5);
+    zoom: 5.0;
+    -moz-transform: scale(5.0);
 }
