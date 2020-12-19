@@ -203,10 +203,6 @@ body main.clock-display {
   }
 }
 
-#myContainer{
-    zoom: 5.0;
-    -moz-transform: scale(5.0);
-}
 
 
 * { box-sizing: border-box; }
@@ -233,7 +229,7 @@ body main.clock-display {
 .vid-info h1 { font-size: 2rem; font-weight: 700; margin-top: 0; line-height: 1.2; }
 .vid-info a { display: block; color: #fff; text-decoration: none; background: rgba(0,0,0,0.5); transition: .6s background; border-bottom: none; margin: 1rem auto; text-align: center; }
 @media (min-aspect-ratio: 16/9) {
-  .video-foreground { height: 300%; top: -100%; }
+  .video-foreground { height: 110%; top: -10%; }
 }
 @media (max-aspect-ratio: 16/9) {
   .video-foreground { width: 300%; left: -100%; }
