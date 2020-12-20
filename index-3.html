@@ -5,14 +5,13 @@
 	<meta charset="utf-8">
 
 	<!-- VIEWPORT SIZING FOR ALL DEVICES -->
-	<meta name="viewport" content="width=device-width, initial-scale=4.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!-- AUTHOR -->
 	<meta name="author" content="Tyler West">
 
 	<!-- DESCRIPTION -->
 	<meta name="description" content="A simple digital clock built with html, css, and javascript.  It will give you the time of day in 12 hour format and the day of the week.">
-
 	<!-- TITLE -->
 	<title>Digital Clock</title>
 
@@ -21,6 +20,7 @@
 
 	<!-- CUSTOM EXTERNAL STYLESHEET -->
 	<link rel="stylesheet" href="css/main.css">
+
 </head>
 <section class="about-section">
 
@@ -31,19 +31,19 @@
 		<div class="video-foreground">
 		  <!-- <iframe src="https://www.youtube.com/embed/W0LHTWG-UmQ?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=W0LHTWG-UmQ" frameborder="0" allowfullscreen></iframe> -->
 		  <!-- <iframe src="https://www.youtube.com/embed/a02_GTmBEXY?autoplay=0&showinfo=0&loop=1&list=PL7K_cQ2aVeqn0_3eTOgLMr_4_BN9md4qq&rel=0" frameborder="0" allowfullscreen></iframe> -->
-		  <iframe src="https://www.youtube.com/embed/lwLvgvDiyFM?autoplay=0&showinfo=1&loop=1&list=PL7K_cQ2aVeqnHZjPSMRjiMWRWHx5HD_67&rel=0" frameborder="0" allowfullscreen></iframe>
+		  <iframe src="https://www.youtube.com/embed/lwLvgvDiyFM?autoplay=1&showinfo=0&loop=1&list=PL7K_cQ2aVeqnuvud55_8EVfXuVIhElJMQ&rel=0" frameborder="0" allowfullscreen></iframe>
 
 		</div>
 	  </div>
 	
 	<!-- <div id="vidtop-content">
 	<div class="vid-info">
-		  <h1>YouTube Fullscreen Background Demo</h1>
-		  <p>The International Space Station orbits the Earth every 92 minutes, with its crew seeing a sunrise 15 times a day. It exists as a scientific, educational, and engineering platform in low orbit, 330 to 435 kilometres above the Earth.
-		 <p>Original timelapse by Riccardo Rossi (ISAA), used under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Raw photos courtesy of http://eol.jsc.nasa.gov/
-		 <a href="/500/Use-YouTube-Videos-as-Fullscreen-Web-Page-Backgrounds">Full article</a>
-	  </div>
-	</div> -->
+		<h1>YouTube Fullscreen Background Demo</h1>
+		<p>The International Space Station orbits the Earth every 92 minutes, with its crew seeing a sunrise 15 times a day. It exists as a scientific, educational, and engineering platform in low orbit, 330 to 435 kilometres above the Earth.
+			<p>Original timelapse by Riccardo Rossi (ISAA), used under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Raw photos courtesy of http://eol.jsc.nasa.gov/
+				<a href="/500/Use-YouTube-Videos-as-Fullscreen-Web-Page-Backgrounds">Full article</a>
+			</div>
+		</div> -->
 <!-- End YOutube Background -->
 
 
@@ -52,10 +52,16 @@
 <br>
 
 
-<body>
-	<div class="date-field">
 
-	<main class="clock-display">
+<body>
+	<div class="row ">
+
+
+
+	<div class="col col3">Lorem</div>
+	<div class="date-field column">
+
+	<main class="clock-display ">
 		<h1 class="myContainer">Clock.js</h1>
 		<div class="date-field">
 			<div class="day-of-week">
@@ -160,25 +166,34 @@
 			</div>
 
 		</div>
-
 	</main>
 
-	<p align="right">
-		<!-- https://calendar.google.com/calendar/u/0/embedhelper -->
-		<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Asia%2FKuala_Lumpur&amp;src=MDEzMjI5MkBrZHUtb25saW5lLmNvbQ&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=ZW4ubWFsYXlzaWEjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;src=OTRxcHEzbjA3ZnJrYzhpMGtmN3ZtaXI4dGExMzZtNThAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;src=dDBzYmZ1aGkyZ21tN2x2OHFmOGw1dTZubzY5cG1hcTBAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23039BE5&amp;color=%2333B679&amp;color=%230B8043&amp;color=%23E67C73&amp;color=%23C0CA33"
-		style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+	
+
+	
+
+	<!-- https://calendar.google.com/calendar/u/0/embedhelper -->
+	<p align="left" class="column">
+		<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Asia%2FKuala_Lumpur&amp;src=MDEzMjI5MkBrZHUtb25saW5lLmNvbQ&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=ZW4ubWFsYXlzaWEjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;src=OTRxcHEzbjA3ZnJrYzhpMGtmN3ZtaXI4dGExMzZtNThAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;src=dDBzYmZ1aGkyZ21tN2x2OHFmOGw1dTZubzY5cG1hcTBAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23039BE5&amp;color=%2333B679&amp;color=%230B8043&amp;color=%23E67C73&amp;color=%23C0CA33" 
+		
+		style="-webkit-transform:scale(0.5);-moz-transform-scale(0.5); position:absolute; top: -3%; right: 1%;"
+		width="800" height="600" frameborder="0" scrolling="no" 		></iframe>
 	</p>
-</div>
 
-<div>
-
-	<p align="center">
-		<!-- https://calendar.google.com/calendar/u/0/embedhelper -->
+	</div>
+	
+	
+	<div align="center " class="" >
 		<iframe src="https://app.gitkraken.com/glo/board/X97ha7w5GgAS3-0j" style="border:solid 1px #777"
-		 width="1500" height="550" frameborder="0" scrolling="no"></iframe>
-	</p>
-</div>
+		 width="1200" height="550" frameborder="0" scrolling="no"></iframe>
+	</div>
 
+
+
+
+
+</div>
 
 
 	<script src="javascript/main.js"></script>

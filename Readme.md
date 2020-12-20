@@ -27,4 +27,11 @@ Install an electron version of that web-app as a desktop app
 
 https://medium.com/@jordan.eckowitz/make-any-website-into-a-desktop-app-with-1-line-of-code-ba53d59bf9e1  
 nativefier --name "Clock-hackerspace" "https://nwy140.github.io/clock/index-3.html"  
-  
+    
+
+
+
+
+
+
+    

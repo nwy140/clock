@@ -1,3 +1,33 @@
+My own custom digital clock page for use with the Lively Wallpaper open-source app  
+
+## Hackspace Themed
+https://nwy140.github.io/clock/index-3.html  
+
+## Ghibli Themed
+https://nwy140.github.io/clock/  
+
+## Space Themed
+https://nwy140.github.io/clock/index-2.html    
+
+Lively Wallpaper Open-source app  
+https://www.microsoft.com/en-us/p/lively-wallpaper/9ntm2qc6qws7?activetab=pivot:overviewtab    
+https://rocksdanister.github.io/lively/    
+
+
+Music Autoplay is disabled by default until the wallpaper is clicked near the bottom edge of the screen    
+
+This repository is a fork of another clock.js repository with some basic digital clock functionality,    
+plus some of my own front-end changes    
+
+When previewing on a browser,
+for best experience, use a chromium based browser
+
+If a web-app doesn't load properly in Lively Wallpaper  
+Install an electron version of that web-app as a desktop app  
+
+https://medium.com/@jordan.eckowitz/make-any-website-into-a-desktop-app-with-1-line-of-code-ba53d59bf9e1  
+nativefier --name "Clock-hackerspace" "https://nwy140.github.io/clock/index-3.html"  
+  
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,8 +60,8 @@
 	<div class="video-background">
 		<div class="video-foreground">
 		  <!-- <iframe src="https://www.youtube.com/embed/W0LHTWG-UmQ?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=W0LHTWG-UmQ" frameborder="0" allowfullscreen></iframe> -->
-		  <iframe src="https://www.youtube.com/embed/a02_GTmBEXY?autoplay=1&showinfo=0&loop=1&list=PL7K_cQ2aVeqn0_3eTOgLMr_4_BN9md4qq&rel=0" frameborder="0" allowfullscreen></iframe>
-		  <!-- <iframe src="https://www.youtube.com/embed/lwLvgvDiyFM?autoplay=1&showinfo=0&loop=1&list=PL7K_cQ2aVeqnHZjPSMRjiMWRWHx5HD_67&rel=0" frameborder="0" allowfullscreen></iframe> -->
+		  <!-- <iframe src="https://www.youtube.com/embed/a02_GTmBEXY?autoplay=0&showinfo=0&loop=1&list=PL7K_cQ2aVeqn0_3eTOgLMr_4_BN9md4qq&rel=0" frameborder="0" allowfullscreen></iframe> -->
+		  <iframe src="https://www.youtube.com/embed/lwLvgvDiyFM?autoplay=1&showinfo=0&loop=1&list=PL7K_cQ2aVeqnHZjPSMRjiMWRWHx5HD_67&rel=0" frameborder="0" allowfullscreen></iframe>
 
 		</div>
 	  </div>
@@ -53,32 +83,29 @@
 
 
 <body>
-	<div class="col col3">Lorem</div>
-	
 
-	<div class="column">
-		
+
+	<div class="date-field">
+
+	<main class="clock-display column">
+		<h1 class="myContainer">Clock.js</h1>
 		<div class="date-field">
-			
-			<main class="clock-display">
-				<h1 class="myContainer">Clock.js</h1>
-				<div class="date-field">
-					<div class="day-of-week">
-						<p class="day-alpha"></p>
-						<p class="placeholder">mmmmmmmmm</p>
-						<p class="placeholder">ooooooooo</p>
-						<p class="placeholder">nnnnnnnnn</p>
-						<p class="placeholder">ttttttttt</p>
-						<p class="placeholder">uuuuuuuuu</p>
-						<p class="placeholder">eeeeeeeee</p>
-						<p class="placeholder">sssssssss</p>
-						<p class="placeholder">wwwwwwwww</p>
-						<p class="placeholder">hhhhhhhhh</p>
-						<p class="placeholder">rrrrrrrrr</p>
-						<p class="placeholder">fffffffff</p>
-						<p class="placeholder">iiiiiiiii</p>
-						<p class="placeholder">ddddddddd</p>
-						<p class="placeholder">aaaaaaaaa</p>
+			<div class="day-of-week">
+				<p class="day-alpha"></p>
+				<p class="placeholder">mmmmmmmmm</p>
+				<p class="placeholder">ooooooooo</p>
+				<p class="placeholder">nnnnnnnnn</p>
+				<p class="placeholder">ttttttttt</p>
+				<p class="placeholder">uuuuuuuuu</p>
+				<p class="placeholder">eeeeeeeee</p>
+				<p class="placeholder">sssssssss</p>
+				<p class="placeholder">wwwwwwwww</p>
+				<p class="placeholder">hhhhhhhhh</p>
+				<p class="placeholder">rrrrrrrrr</p>
+				<p class="placeholder">fffffffff</p>
+				<p class="placeholder">iiiiiiiii</p>
+				<p class="placeholder">ddddddddd</p>
+				<p class="placeholder">aaaaaaaaa</p>
 				<p class="placeholder">yyyyyyyyy</p>
 			</div>
 			<div class="day-of-week-mobile">
@@ -168,26 +195,31 @@
 
 	</main>
 
-	<!-- https://calendar.google.com/calendar/u/0/embedhelper -->
-	<p align="right" class="column">
+
+	
+
+</div>
+
+<div>
+
+
+	<p align="center numbers" >
+		<!-- https://calendar.google.com/calendar/u/0/embedhelper -->
+		<iframe src="https://app.gitkraken.com/glo/board/X97ha7w5GgAS3-0j" style="border:solid 1px #777"
+		 width="1500" height="550" frameborder="0" scrolling="no"></iframe>
+	</p>
+	<p align="right numbers" >
+		<!-- https://calendar.google.com/calendar/u/0/embedhelper -->
 		<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Asia%2FKuala_Lumpur&amp;src=MDEzMjI5MkBrZHUtb25saW5lLmNvbQ&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=ZW4ubWFsYXlzaWEjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;src=OTRxcHEzbjA3ZnJrYzhpMGtmN3ZtaXI4dGExMzZtNThAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;src=dDBzYmZ1aGkyZ21tN2x2OHFmOGw1dTZubzY5cG1hcTBAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23039BE5&amp;color=%2333B679&amp;color=%230B8043&amp;color=%23E67C73&amp;color=%23C0CA33" 
 		
 		style="-webkit-transform:scale(0.5);-moz-transform-scale(0.5);" 
-		width="800" height="600" frameborder="0" scrolling="no" 		></iframe>
+		width="800" height="600" frameborder="0" scrolling="no" 	></iframe>
 	</p>
-
-
-
-<!-- <div> -->
-	<!-- <p align="center"> -->
-		<!-- https://calendar.google.com/calendar/u/0/embedhelper -->
-		<!-- <iframe src="https://app.gitkraken.com/glo/board/X97ha7w5GgAS3-0j" style="border:solid 1px #777"
-		 width="1500" height="450" frameborder="0" scrolling="no"></iframe>
-		</p>
-</div> -->
-
+</div>
+`
 
 
 	<script src="javascript/main.js"></script>
 </body>
 </html>
+dd
