@@ -242,3 +242,21 @@ commented out this to enable play/pause, to disable play/pause, uncomment this*/
 @media all and (max-width: 500px) {
 .vid-info .acronym { display: none; }
 }
+
+
+
+
+
+
+.responsiveCal {
+ 
+  position: relative; padding-bottom: 75%; height: 0; overflow: hidden;
+   
+  }
+   
+  .responsiveCal iframe {
+   
+  position: absolute; top:0; left: 0; width: 100%; height: 100%;
+   
+  }
+
