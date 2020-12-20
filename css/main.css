@@ -209,7 +209,7 @@ body main.clock-display {
 .video-background {
   background: #000;
   position: fixed;
-  top: 0; right: 0; bottom: 0; left: 0;
+  top: 0; right: 0; bottom: 0; left: 0; 
   z-index: -1;
 }
 .video-foreground,
@@ -332,4 +332,7 @@ scommented out this to enable play/pause, to disable play/pause, uncomment this*
     /* background-color: #f5f5f5  */
   }
 
+  .ignore-click {
+    pointer-events: none;
+    }
 
