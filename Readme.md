@@ -19,7 +19,8 @@ Music Autoplay is disabled by default until the wallpaper is clicked near the bo
 This repository is a fork of another clock.js repository with some basic digital clock functionality,    
 plus some of my own front-end changes    
 
-
+When previewing on a browser,
+for best experience, use a chromium based browser
 
 If a web-app doesn't load properly in Lively Wallpaper  
 Install an electron version of that web-app as a desktop app  
