@@ -230,7 +230,7 @@ commented out this to enable play/pause, to disable play/pause, uncomment this*/
 .vid-info h1 { font-size: 2rem; font-weight: 700; margin-top: 0; line-height: 1.2; }
 .vid-info a { display: ; color: #fff; text-decoration: none; background: rgba(0,0,0,0.5); transition: .6s background; border-bottom: none; margin: 1rem auto; text-align: center; }
 @media (min-aspect-ratio: 16/9) {
-  .video-foreground { height: 110%; top: -10%; }
+  .video-foreground { height: 100%; top: 0%; }
 }
 @media (max-aspect-ratio: 16/9) {
   .video-foreground { width: 300%; left: -100%; }
