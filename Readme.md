@@ -1,13 +1,18 @@
 My own custom digital clock page for use with the Lively Wallpaper open-source app  
+## Main (With All Widgets)
+https://nwy140.github.io/clock/index-3.html  
+
+## Pocket Dimension Themed
+https://nwy140.github.io/clock/index-pocket-dimension.html  
 
 ## Hackspace Themed
-https://nwy140.github.io/clock/index-3.html  
+https://nwy140.github.io/clock/index-hackerspace.html  
 
 ## Ghibli Themed
 https://nwy140.github.io/clock/  
 
 ## Space Themed
-https://nwy140.github.io/clock/index-2.html    
+https://nwy140.github.io/clock/index-space.html    
 
 Lively Wallpaper Open-source app  
 https://www.microsoft.com/en-us/p/lively-wallpaper/9ntm2qc6qws7?activetab=pivot:overviewtab    
