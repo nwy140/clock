@@ -14,7 +14,7 @@ https://www.microsoft.com/en-us/p/lively-wallpaper/9ntm2qc6qws7?activetab=pivot:
 https://rocksdanister.github.io/lively/  
 
 
-Music Autoplay is disabled by default until the wallpaper is clicked  
+Music Autoplay is disabled by default until the wallpaper is clicked near the bottom edge of the screen  
 
 This repository is a fork of another clock.js repository with some basic digital clock functionality,  
 plus some of my own front-end changes  
