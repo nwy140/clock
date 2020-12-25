@@ -34,7 +34,7 @@ https://medium.com/@jordan.eckowitz/make-any-website-into-a-desktop-app-with-1-l
 nativefier --name "Clock-hackerspace" "https://nwy140.github.io/clock/index-3.html"  
     
 
-Sterling Searcher
+Sterling Searcher  
 https://nwy140.github.io/clock/sterling-searcher.html
 
 
