@@ -35,8 +35,8 @@ nativefier --name "Clock-hackerspace" "https://nwy140.github.io/clock/index-3.ht
     
 
 Sterling Searcher  
-https://nwy140.github.io/clock/sterling-searcher
-https://nwy140.github.io/clock/flow-searcher
+https://nwy140.github.io/clock/sterling-searcher   
+https://nwy140.github.io/clock/flow-searcher  
 
 
 
