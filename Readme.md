@@ -11,6 +11,9 @@ https://nwy140.github.io/clock/index-hackerspace.html
 ## Computer Room Themed
 https://nwy140.github.io/clock/computer-room.html
 
+## Dear My Cat Themed
+https://nwy140.github.io/clock/dear-my-cat.html
+
 ## Ghibli Themed
 https://nwy140.github.io/clock/  
 
