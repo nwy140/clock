@@ -8,6 +8,9 @@ https://nwy140.github.io/clock/index-pocket-dimension.html
 ## Hackspace Themed
 https://nwy140.github.io/clock/index-hackerspace.html  
 
+## Computer Room Themed
+https://nwy140.github.io/clock/computer-room.html
+
 ## Ghibli Themed
 https://nwy140.github.io/clock/  
 
