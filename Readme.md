@@ -20,6 +20,9 @@ https://nwy140.github.io/clock/
 ## Space Themed
 https://nwy140.github.io/clock/index-space.html    
 
+## In Game Ride
+https://nwy140.github.io/clock/in-game-ride.html  
+
 Lively Wallpaper Open-source app  
 https://www.microsoft.com/en-us/p/lively-wallpaper/9ntm2qc6qws7?activetab=pivot:overviewtab    
 https://rocksdanister.github.io/lively/    
