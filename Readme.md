@@ -27,11 +27,11 @@ Lively Wallpaper Open-source app
 https://www.microsoft.com/en-us/p/lively-wallpaper/9ntm2qc6qws7?activetab=pivot:overviewtab    
 https://rocksdanister.github.io/lively/    
 
-#360-tour
-https://nwy140.github.io/clock/360-tour
+# 360-tour  
+https://nwy140.github.io/clock/360-tour  
 
-#360-ambience
-https://nwy140.github.io/clock/360-ambience
+# 360-ambience  
+https://nwy140.github.io/clock/360-ambience  
 
 Music Autoplay is disabled by default until the wallpaper is clicked near the bottom edge of the screen    
 
