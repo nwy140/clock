@@ -19,3 +19,6 @@ https://nwy140.github.io/clock/recreated/pocket_dimension.html
 
 ### Mitsukiyo
 https://www.youtube.com/embed/videoseries?si=EmPWkIhWXxDnryij&amp;loop=1&list=OLAK5uy_nRJvSwrX00sIoPeJF6kU2fcRGSliK3gVc  
+
+
+https://www.youtube.com/embed/videoseries?si=CiqWfogpsn4&amp;loop=1&list=PLbpAs6rHbPAAUPHrk7M1IFGDrTiee32Mu  
