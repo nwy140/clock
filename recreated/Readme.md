@@ -23,9 +23,6 @@ https://www.youtube.com/embed/videoseries?si=EmPWkIhWXxDnryij&amp;loop=1&list=OL
 ### 2010  
 https://www.youtube.com/embed/videoseries?si=CiqWfogpsn4&amp;loop=1&list=PLbpAs6rHbPAAUPHrk7M1IFGDrTiee32Mu  
 
-### Toku
-https://www.youtube.com/embed/videoseries?si=vjunKWXfUXM&amp;loop=1&list=PLCOv7vafHCOgLDrjS2z1VKal4LYyzBpEY  
-
 ### Aestra Auralis
 https://www.youtube.com/embed/fPwRRqJkawY?autoplay=0&showinfo=0&loop=1&list=PLC612B6FEF895CBD8&rel=0  
 
